@@ -1,0 +1,4 @@
+# Mount the host entry so DSH scans the browser bundle declared by package.json.
+- insert:
+    - id: dsh-theme-controls
+      name: 'dsh-theme-controls'
