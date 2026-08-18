@@ -8,7 +8,7 @@ A client-side theme and typography plugin for DSH Web. Configure a background im
 
 中文文档请见 [README.zh-CN.md](README.zh-CN.md)。
 
-## Features
+## What It Does
 
 - Background image from an HTTP(S) URL or a local PNG, JPEG, WebP, or GIF file.
 - Background fit modes: `cover`, `contain`, `stretch`, and `tile`.
@@ -25,27 +25,27 @@ A client-side theme and typography plugin for DSH Web. Configure a background im
 - Requires the DSH settings slot `settings.general.item`.
 - Client-only; headless and desktop-specific hosts are not supported.
 
-## Installation
+## Install
 
-### Local Checkout
+### Recommended: GitHub
 
-Run this command from the plugin directory:
+Install the plugin directly into the DSH Web profile:
 
 ```powershell
-dsh plugin add -w --profile web .
+dsh plugin add -w --profile web github:ZZzzzPink/Theme-Controls
 ```
 
 Restart DSH Web after installation.
 
-### GitHub Source Archive
+### Network Fallback: Source Archive
 
-If GitHub Git transport is unavailable on your network, install the `main` branch through GitHub's source archive endpoint:
+If the normal GitHub installation fails with an SSH or Git transport error, use the `main` branch source archive instead:
 
 ```powershell
 dsh plugin add -w --profile web "https://codeload.github.com/ZZzzzPink/Theme-Controls/tar.gz/refs/heads/main"
 ```
 
-## Usage
+## Use It
 
 1. Open **Settings -> General** in DSH Web.
 2. Open **Theme and fonts**.

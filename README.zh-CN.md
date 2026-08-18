@@ -8,7 +8,7 @@
 
 英文文档请见 [README.md](README.md)。
 
-## 功能
+## 功能概览
 
 - 支持 HTTP/HTTPS 图片地址，或选择本地 PNG、JPEG、WebP、GIF 文件作为背景图。
 - 支持 `cover`、`contain`、`stretch`、`tile` 四种背景适配方式。
@@ -27,25 +27,25 @@
 
 ## 安装
 
-### 本地目录安装
+### 推荐：从 GitHub 安装
 
-在插件目录中执行：
+直接安装到 DSH Web 的 `web` profile：
 
 ```powershell
-dsh plugin add -w --profile web .
+dsh plugin add -w --profile web github:ZZzzzPink/Theme-Controls
 ```
 
 安装后重启 DSH Web。
 
-### 从 GitHub 源码压缩包安装
+### 网络备用方式：源码压缩包
 
-如果当前网络无法正常使用 GitHub Git 传输，可以通过 GitHub 源码压缩包安装 `main` 分支：
+如果正常的 GitHub 安装因 SSH 或 Git 传输错误失败，可以通过源码压缩包安装 `main` 分支：
 
 ```powershell
 dsh plugin add -w --profile web "https://codeload.github.com/ZZzzzPink/Theme-Controls/tar.gz/refs/heads/main"
 ```
 
-## 使用方法
+## 使用
 
 1. 在 DSH Web 中打开 **设置 -> 通用设置**。
 2. 找到 **Theme and fonts** 设置项。
