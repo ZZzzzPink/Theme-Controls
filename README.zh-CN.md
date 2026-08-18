@@ -4,7 +4,7 @@
 [![许可证](https://img.shields.io/github/license/ZZzzzPink/Theme-Controls)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/ZZzzzPink/Theme-Controls)](https://github.com/ZZzzzPink/Theme-Controls/issues)
 
-这是一个用于 DSH Web 的客户端主题与字体插件。你可以在 **设置 -> 通用设置** 中修改背景图片、界面缩放、界面字体、Markdown 正文字体和代码字体。
+这是一个用于 DSH Web 的客户端主题与字体插件。你可以在独立的 **Theme and fonts** 设置页面中修改背景图片、界面缩放、界面字体、Markdown 正文字体和代码字体。
 
 英文文档请见 [README.md](README.md)。
 
@@ -22,7 +22,7 @@
 
 - 目标平台：DSH Web。
 - 已基于 DSH `0.1.0-rc.6` 验证。
-- 依赖 DSH 的 `settings.general.item` 设置项插槽。
+- 通过 `settings.section` 注册为 DSH 设置中的顶级页面。
 - 仅支持客户端 Web 环境，不支持 headless 和桌面专用 host。
 
 ## 安装
@@ -47,8 +47,8 @@ dsh plugin add -w --profile web "https://codeload.github.com/ZZzzzPink/Theme-Con
 
 ## 使用
 
-1. 在 DSH Web 中打开 **设置 -> 通用设置**。
-2. 找到 **Theme and fonts** 设置项。
+1. 在 DSH Web 中打开 **设置**。
+2. 找到同级的 **Theme and fonts** 页面。
 3. 修改配置，支持的改动会立即生效。
 4. 点击 **Choose image** 选择本地背景图。
 5. 点击 **Reset** 清除插件保存的配置，并恢复插件接管前记录的内联样式。

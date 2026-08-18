@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/github/license/ZZzzzPink/Theme-Controls)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/ZZzzzPink/Theme-Controls)](https://github.com/ZZzzzPink/Theme-Controls/issues)
 
-A client-side theme and typography plugin for DSH Web. Configure a background image, interface scale, UI font, Markdown font, and code font from **Settings -> General**.
+A client-side theme and typography plugin for DSH Web. Configure a background image, interface scale, UI font, Markdown font, and code font from its own **Theme and fonts** settings page.
 
 中文文档请见 [README.zh-CN.md](README.zh-CN.md)。
 
@@ -22,7 +22,7 @@ A client-side theme and typography plugin for DSH Web. Configure a background im
 
 - Target: DSH Web.
 - Validated against DSH `0.1.0-rc.6`.
-- Requires the DSH settings slot `settings.general.item`.
+- Registers a top-level DSH settings section through `settings.section`.
 - Client-only; headless and desktop-specific hosts are not supported.
 
 ## Install
@@ -47,8 +47,8 @@ dsh plugin add -w --profile web "https://codeload.github.com/ZZzzzPink/Theme-Con
 
 ## Use It
 
-1. Open **Settings -> General** in DSH Web.
-2. Open **Theme and fonts**.
+1. Open **Settings** in DSH Web.
+2. Open the top-level **Theme and fonts** section.
 3. Change a value; supported changes apply immediately.
 4. Use **Choose image** to select a local background image.
 5. Use **Reset** to remove the plugin's saved preferences and restore the inline styles captured before the plugin applied its changes.
