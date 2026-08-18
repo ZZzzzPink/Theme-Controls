@@ -1,6 +1,6 @@
 {
   "name": "dsh-theme-controls",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Background image and typography controls for DSH Web settings",
   "type": "module",
   "main": "lib/index.js",
@@ -22,7 +22,8 @@
       "inject": [
         "@deepseek-ai/dsh-client-runtime",
         "@deepseek-ai/dsh-client-ui-settings",
-        "@deepseek-ai/dsh-client-ui-slots"
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale"
       ],
       "platform": "web",
       "immediately": true

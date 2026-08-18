@@ -22,6 +22,7 @@ A client-side theme and typography plugin for DSH Web. Configure a background im
 
 - Target: DSH Web.
 - Validated against DSH `0.1.0-rc.6`.
+- Plugin version: `0.1.1`.
 - Registers a top-level DSH settings section through `settings.section`.
 - Client-only; headless and desktop-specific hosts are not supported.
 
